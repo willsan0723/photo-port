@@ -7,8 +7,7 @@ afterEach(cleanup);
 
 describe('Contact component renders', () => {
     it('renders', () => {
-        render(<Contact
-        />);
+        render(<Contact />);
     })
 
     it('matches snapshot', () => {
